@@ -1,0 +1,71 @@
+10+20
+30
+alert("안녕하세요.")
+undefined
+a=10
+10
+alert(a)
+undefined
+confirm("종료하시겠습니까?)
+VM2061:1 Uncaught SyntaxError: Invalid or unexpected token
+confirm("종료하시겠습니까?")
+true
+prompt("당신의 이름은?")
+'이종국'
+prompt("종료하시겠습니까?(예/아니오)", "예")
+'예'
+name = "이종국"
+'이종국'
+console.log.(name + "님 환영합니다.")
+VM2150:1 Uncaught SyntaxError: Unexpected token '('
+console.log(name + "님 환영합니다.")
+
+vendors_sentry.js:44 이종국님 환영합니다.
+undefined
+document.write("제 이름은 "+ name + "입니다.")
+undefined
+let age = 21
+undefined
+console.log(name + "나이는" + age + "세 입니다.")
+vendors_sentry.js:44 이종국나이는21세 입니다.
+undefined
+console.log('${name}님의 나이는 ${age}세 입니다.')
+vendors_sentry.js:44 ${name}님의 나이는 ${age}세 입니다.
+undefined
+console.log('${name}님의 나이는 ${age}세 입니다.')
+vendors_sentry.js:44 ${name}님의 나이는 ${age}세 입니다.
+undefined
+let student = {
+    major : "컴퓨터 공학부",
+    idNum : 202295029,
+    name : "이종국"
+}
+undefined
+student
+{major: '컴퓨터 공학부', idNum: 202295029, name: '이종국'}
+student.name
+'이종국'
+student["major"]
+'컴퓨터 공학부'
+let id = symbol()
+VM2962:1 Uncaught ReferenceError: symbol is not defined
+    at <anonymous>:1:10
+(anonymous) @ VM2962:1
+let id = Symbol()
+undefined
+const member = {
+    name : "이종국",
+    [id] : 12345
+]
+VM3146:4 Uncaught SyntaxError: Unexpected token ']'
+const member = {
+    name : "이종국",
+    [id] : 12345
+}
+undefined
+member
+{name: '이종국', Symbol(): 12345}
+member id
+VM3234:1 Uncaught SyntaxError: Unexpected identifier 'id'
+member[id]
+12345

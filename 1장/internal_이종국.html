@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문서 안에 스크립트 작성 - 이종국</title>
+</head>
+<body>
+    
+    <script>
+        function random(number) {
+            return Math.floor(Math.random() * number);
+        }
+
+        function bgChange() {
+            const rndcol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+            document.body.style.backgroundColor = rndCol;
+        }
+
+        bgChange(); // 함수호출
+    </script>
+</body>
+</html>
